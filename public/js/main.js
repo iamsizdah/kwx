@@ -397,10 +397,10 @@ var KWS = function(){
                 filterNegative: "",
                 filterPositive: "",
                 lang: "",
-                prefixes: [" ", "a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v", "y", "x", "y", "z", "how", "which", "why", "where", "who", "when", "are", "what"],
+                prefixes: [" ", "آ", "ب", "پ", "ت", "ث", "ج", "چ", "ح", "خ", "د", "ذ", "ر", "ز", "س", "ش", "ط", "ظ", "ع", "غ", "ژ", "ع", "غ", "ف", "ق", "ل", "م", "ن", "و", "ه", "ک", "گ", "مدل", "خرید", "قیمت", "عکس", "تصویر", "سفارش", "مد", "جدید"],
                 rateLimit: 750,
                 service: "google",
-                suffixes: [" ", "a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v", "y", "x", "y", "z", "like", "for", "without", "with", "versus", "vs", "to", "near", "except", "has"]
+                suffixes: [" ", "آ", "ب", "پ", "ت", "ث", "ج", "چ", "ح", "خ", "د", "ذ", "ر", "ز", "س", "ش", "ط", "ظ", "ع", "غ", "ژ", "ع", "غ", "ف", "ق", "ل", "م", "ن", "و", "ه", "ک", "گ", "مدل", "خرید", "قیمت", "عکس", "تصویر", "سفارش", "مد", "جدید"]
             }; // for now defaults are set in html
             if (argOptions===undefined) argOptions={};
             return _.defaults(argOptions,this.getDomOptions(),defaultOptions);
